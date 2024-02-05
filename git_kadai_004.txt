@@ -1,0 +1,15 @@
+MacBook-Pro:git_tutorial erina$ git init git_challenge
+Initialized empty Git repository in /Users/erina/git_tutorial/git_challenge/.git/
+MacBook-Pro:git_tutorial erina$ cd git_challenge
+MacBook-Pro:git_challenge erina$ git add hello_world.txt
+MacBook-Pro:git_challenge erina$ git commit -m "hello_worldを追加"
+[main (root-commit) ebc219f] hello_worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+MacBook-Pro:git_challenge erina$ git add hello_world.txt
+MacBook-Pro:git_challenge erina$ git commit -m "日本語を追記"
+[main 1818698] 日本語を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+MacBook-Pro:git_challenge erina$ git log --oneline
+1818698 (HEAD -> main) 日本語を追記
+ebc219f hello_worldを追加
